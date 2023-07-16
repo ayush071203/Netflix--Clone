@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(netflix-homepage.jpg) ; 
+    background-size: cover;
+}
+h1{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: white;
+    opacity: 100%;
+    border: 0.5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 3px 3px 35px 13px black inherit;
+}
+.first{
+    background-color: black;
+    opacity: 70%;
+}
+.second{
+    display: flex;
+    background-color: black;
+    opacity: 70%;
+}
+.zero{
+    background-color: black;
+    opacity: 70%;
+}
+h2{
+    color: white;
+    margin-left: 35%;
+    font-weight: lighter;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+h3{
+    color: white;
+    margin-left: 27%;
+    font-weight: lighter;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+input{
+    margin-top: 90px;
+    margin-left: 25%;
+    background-color: white;
+    border: 10px white;
+    width: 370px;
+}
+::placeholder{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    padding: 12px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    margin-left: 20px;
+    height: 50px;
+    width: 180px;
+    margin-top: 90px;
+    display: flex;
+    font-size: 23px;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    padding: 5px;
+    cursor: pointer;
+}
+a:hover{
+    background-color: rgb(86, 26, 26);
+}
+.third{
+    background-color: black;
+    opacity: 70%;
+}
+.hidden{
+    visibility: hidden;
+}
+.lang{
+    width: 90px;
+
+}
+.language{
+    padding: 20px;
+}
+h6{
+    visibility: hidden;
+}
